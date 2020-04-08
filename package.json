@@ -1,0 +1,23 @@
+{
+  "name": "graphql_paractice",
+  "version": "1.0.0",
+  "description": "learning graphQL with apollo and prisma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuston05/graphql_paractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuston05/graphql_paractice/issues"
+  },
+  "homepage": "https://github.com/fuston05/graphql_paractice#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
