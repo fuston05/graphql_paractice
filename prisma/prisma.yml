@@ -1,0 +1,8 @@
+#endpoint: ''
+endpoint: https://us1.prisma.sh/scott-fuston-3ae310/graphql_paractice/dev
+
+datamodel: dataModel.prisma
+
+generate: 
+  - generator: javascript-client 
+    output: ../src/generated/prisma-client

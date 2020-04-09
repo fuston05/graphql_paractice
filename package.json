@@ -4,6 +4,8 @@
   "description": "learning graphQL with apollo and prisma",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "server": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +20,12 @@
   },
   "homepage": "https://github.com/fuston05/graphql_paractice#readme",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "global": "^4.4.0",
+    "graphql-yoga": "^1.18.3",
+    "prisma": "^1.34.10",
+    "prisma-client-lib": "^1.34.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
