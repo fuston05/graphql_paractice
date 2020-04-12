@@ -1,0 +1,14 @@
+# main config file for prisma setup
+
+# endpoint for prisma api
+#endpoint: ''
+endpoint: https://us1.prisma.sh/scott-fuston-3ae310/graphql_paractice/dev
+
+# points to the file that contains datamodel
+datamodel: datamodel.prisma
+
+# specify language and location for the generated
+# prisma client
+generate: 
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
